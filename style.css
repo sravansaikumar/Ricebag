@@ -1,0 +1,90 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{ 
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;  
+}
+.Rice-bag
+{
+    background: rgb(250, 252, 250);
+    text-align: center;
+}
+.Rice-bag .fa
+{
+    margin-right: 8px;
+}
+h1
+{
+    text-align: center;
+    color: rgb(5, 129, 5);
+}
+.Rice-bag ul
+{
+  display: inline-flex;
+  list-style: none;    
+}
+.Rice-bag ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.Rice-bag ul li a
+{
+    text-decoration: none;
+    color: rgb(2, 11, 19);
+}
+.active, .Rice-bag ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+.sub-menu
+{
+    display: none;
+}
+.Rice-bag ul li:hover .sub-menu
+{
+    display: block;
+    position: absolute;
+    background: rgb(248, 250, 248);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.Rice-bag ul li:hover .sub-menu ul
+{
+    display: block;
+    margin: 10px;
+}
+.Rice-bag ul li:hover .sub-menu ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(243, 17, 17);
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.Rice-bag ul li:hover .sub-menu ul li:last-child
+{
+    border-bottom: none;
+}
+.Rice-bag ul li:hover .sub-menu ul li a:hover
+{
+    color: aqua;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(196, 228, 196);
+    color: rgb(24, 2, 2);
+    text-align: center;
+ }

@@ -1,0 +1,4 @@
+login page
+Home page matter(~30%)
+items list
+working cart
